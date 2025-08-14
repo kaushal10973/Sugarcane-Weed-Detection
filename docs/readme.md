@@ -19,6 +19,9 @@ Sugarcane_Weed_Detection/
 ---
 
 ## 📊 Dataset
+Source: Roboflow dataset
+link: https://universe.roboflow.com/abhishek-trvj4/sugarcane-weed/dataset/1
+
 Images labeled with weed bounding boxes only.
 Labels are in YOLOv8 TXT format.
 
@@ -44,10 +47,6 @@ mAP@0.5 = 85.1%
 
 ## Output
 Output images with bounding boxes are saved in output/output_images/.
-
-# Dataset
-Source: Roboflow dataset
-link: https://universe.roboflow.com/abhishek-trvj4/sugarcane-weed/dataset/1
 
 ## 🚀 Installation
 ```bash
