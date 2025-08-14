@@ -26,8 +26,7 @@ Images labeled with weed bounding boxes only.
 Labels are in YOLOv8 TXT format.
 
 Directory structure:
-data/
-├── images/
+data/images/
 │   ├── train/
 │   ├── val/
 │   └── test/
