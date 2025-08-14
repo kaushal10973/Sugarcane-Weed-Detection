@@ -41,8 +41,8 @@ data/
 ---
 
 ## 📈 Results
-P (Precision) = 89.2%
-R (Recall) = 87.4%
+P (Precision) = 89.2% | 
+R (Recall) = 87.4% | 
 mAP@0.5 = 85.1%
 
 ## Output
