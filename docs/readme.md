@@ -42,6 +42,9 @@ P (Precision) = 89.2%
 R (Recall) = 87.4%
 mAP@0.5 = 85.1%
 
+## Output
+Output images with bounding boxes are saved in output/output_images/.
+
 # Dataset
 Source: Roboflow dataset
 link: https://universe.roboflow.com/abhishek-trvj4/sugarcane-weed/dataset/1
@@ -67,7 +70,3 @@ python src/train.py
 
 #Prediction
 python src/predict.py
-
-📈 Results
-Target: >80% mAP
-Output images with bounding boxes are saved in output/output_images/.
