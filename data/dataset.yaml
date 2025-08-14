@@ -1,0 +1,8 @@
+# dataset.yaml for YOLOv8
+path: ../data  # dataset root relative to train.py
+train: images/train
+val: images/val
+test: images/test
+
+nc: 2  # number of classes
+names: ['sugarcane', 'weed']
