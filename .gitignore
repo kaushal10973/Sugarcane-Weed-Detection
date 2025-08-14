@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+
+# Large datasets or model files
+*.h5
+*.pth
+*.pt
+*.ckpt
+*.tflite
+*.onnx
+*.zip
+*.tar
+*.gz
+
+# IDE configs
+.vscode/
+.idea/

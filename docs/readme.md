@@ -37,19 +37,35 @@ data/
 
 ---
 
+## 📈 Results
+P (Precision) = 89.2%
+R (Recall) = 87.4%
+mAP@0.5 = 85.1%
+
+# Dataset
+Source: Roboflow dataset
+link: https://universe.roboflow.com/abhishek-trvj4/sugarcane-weed/dataset/1
+
 ## 🚀 Installation
 ```bash
-git clone <repo_url>
+git clone https://github.com/kaushal10973/Sugarcane-Weed-Detection
 cd Sugarcane_Weed_Detection
+
+# Create virtual environment (recommended)
+python -m venv .venv
+# Activate environment
+# Windows:
+.venv\Scripts\activate
+# Mac/Linux:
+source .venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
 
-
-🏋️ Training
-
+#Training
 python src/train.py
 
-🔍 Prediction
-
+#Prediction
 python src/predict.py
 
 📈 Results
